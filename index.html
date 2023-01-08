@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klimeš firma</title>
+</head>
+
+<link rel="stylesheet" href="./css/style.css">
+
+<body>
+    <header>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary px-4 fixed-top">
+        <container class=" container ml-auto">
+            <a href="#" class="navbar-brand">
+                <h3 class="mb-0">Firma</h3>
+            </a>
+            <button class="navbar-toggler mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span><svg
+                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-card-list" viewBox="0 0 16 16">
+                        <path
+                            d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                        <path
+                            d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                    </svg></span>
+            </button>
+        </container>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-nowrap fs-4">
+                <li class="nav-item"><a href="#" class="nav-link">Domů</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">O nás</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Co umíme</a></li>
+                <li class="nav-item"><a href="#cenik" class="nav-link">Ceník</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="about" id="about">
+        <h2>Firma Profesionál</h2>
+        <p class="lead">Naše motto:"Nic není nemožné"</p>
+        <div class="d-flex-column d-md-row justify-items-center">
+            <div class="flex-row">
+                <button type="button" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-show="true">
+                    cookies
+                </button>
+
+                <a href="./Bootstrap cv2 firma.docx" target="_blank" class="zadani">Zadání úkolu</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="carousel section " id="skills">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Naše práce</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div class="row">
+                    <div class="col-4">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/DiTrevi.png" class="d-block w-100" alt="Ditrevi">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/florencie2.png" class="d-block w-100" alt="florencie">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/Rim.png" class="d-block w-100" alt="rim">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-8">
+                        <p class="muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea a odit
+                            fuga minus accusantium, fugiat libero sequi architecto temporibus laudantium commodi in
+                            tempore. Illo saepe repudiandae esse error modi. And all that just to give you an idea of
+                            how tooltips would look when used in real-world situations. So
+                            hopefully you've now seen how <a href="#" data-bs-toggle="tooltip"
+                                data-bs-title="Another one here too">these tooltips on links</a> can work in practice,
+                            once you use them on site or project.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <hr>
+    <section class="three section d-flex-column xl-flex-row justify-items-around">
+        <div class="row">
+            <div class="d-none md-col-1 flex-grow-1 flex-shrink-1"></div>
+            <div class="col flex-grow-1 flex-shrink-1">
+                <div class="prace">
+                    <img src="./images/florencie.png" height="180px" alt="cyklisti" class="d-none d-md-block">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati culpa vero
+                        nostrum sed, asperiores quia repudiandae impedit adipisc dolorum iusto vel facilis?</p>
+                </div>
+            </div>
+            <div class="col flex-grow-1 flex-shrink-1">
+                <div class="prace">
+                    <img src="./images/siena2.png" height="180px" alt="cyklisti" class="d-none d-md-block">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati culpa vero
+                        nostrum sed, asperiores quia repudiandae impedit adipisc dolorum iusto vel facilis?</p>
+                </div>
+            </div>
+            <div class="col flex-grow-1 flex-shrink-1">
+                <div class="prace">
+                    <img src="./images/florencie2.png" height="180px" alt="cyklisti" class="d-none d-md-block">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati culpa vero
+                        nostrum sed, asperiores quia repudiandae impedit adipisc dolorum iusto vel facilis?</p>
+                </div>
+            </div>
+            <div class="col flex-grow-1 flex-shrink-1">
+                <div class="prace">
+                    <img src="./images/siena.png" height="180px" alt="cyklisti" class="d-none d-md-block">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                        obcaecati culpa vero
+                        nostrum sed, asperiores quia repudiandae impedit adipisc dolorum iusto vel facilis?</p>
+                </div>
+            </div>
+            <div class="col-2 d-none flex-grow-1 flex-shrink-1"></div>
+        </div>
+    </section>
+    <hr>
+    <section class="section fourth" id="cenik">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">název</th>
+                    <th scope="col">popis</th>
+                    <th scope="col">cena</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">něco</th>
+                    <td>pro něco</td>
+                    <td>300 Kč</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">něco</th>
+                    <td>pro něco</td>
+                    <td>500 Kč</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">další něco</th>
+                    <td>pro něco něco</td>
+                    <td>600 Kč</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section class="five section">
+
+        <div class="row">
+            <div class="col">
+
+                <p class="lead">
+                    <i class="bi bi-arrow-right"></i>
+                    Tahle firma<br>
+                    <i class="bi bi-signpost"></i>
+                    na téhle adrese<br>
+                    <i class="bi bi-signpost"></i>
+                    111 11 Praha<br>
+                    <i class="bi bi-telephone-outbound-fill"></i>
+                    (420) 222 222 222<br>
+                    <i class="bi bi-envelope-at"></i>
+                    info@tahlefirma.cz
+                </p>
+            </div>
+            <div class="col justify-content-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10432.378008567486!2d15.064361786662397!3d49.17979334538428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1scs!2scz!4v1673004310124!5m2!1scs!2scz"
+                    height="150px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="mapa"></iframe>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="contact section justify-items-center" id="contact">
+        <form action="">
+            <h2>Kontaktujte nás</h2>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Jméno</span>
+                <input type="text" class="form-control" placeholder="Vaše jméno" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+                <input type="text" class="form-control" placeholder="Váš email" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Vaše zpráva</span>
+                <textarea type="text" class="form-control" placeholder="Vaše zpráva" row="2" aria-label="Message"
+                    aria-describedby="basic-addon3">
+                </textarea>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer class="container-fluid">
+        &copy;Tahle firma 2022
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false"
+        data-show="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ujednání o osobních údajích</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...Soubory cookie a další technologie používané k zabezpečení umožňují identifikovat uživatele,
+                    předcházet podvodům a chránit vás při používání služby.
+
+                    Soubory cookie a další technologie používané k ověření uživatelů zajišťují, že účet smí používat jen
+                    jeho skutečný vlastník. Používáme například soubory cookie nazývané SID a HSID, které obsahují
+                    digitálně podepsané a šifrované záznamy o ID účtu Google uživatele a čase posledního přihlášení.
+                    Kombinace těchto dvou souborů cookie nám umožňuje blokovat mnoho typů útoků (např. pokusy o odcizení
+                    obsahu formulářů, které odesíláte ve službách Google).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Souhlasím</button>
+                    <button type="button" class="btn btn-primary">Více o cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript">
+    $(document).on('click', '.navbar-collapse.show', function (e) {
+        if ($(e.target).is('a')) {
+            $(this).collapse('hide');
+        }
+    });
+
+
+    $(window).on('load', function () {
+        $('#exampleModal').modal('show');
+    });
+</script>
+
+</html>
